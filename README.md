@@ -4,3 +4,4 @@ SSCleaning é um simples shell script que foi criado para fazer a limpeza automa
 
 
 ### Lista de comandos:
+ * list
