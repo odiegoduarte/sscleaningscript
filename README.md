@@ -6,7 +6,7 @@ SSCleaning é um simples shell script que foi criado para fazer a limpeza automa
   <img width="460" height="300" src="https://raw.githubusercontent.com/odiegoduarte/sscleaningscript/master/sscleaning.gif">
 </p>
 
-### Lista de comandos :
+### Lista de comandos:
 
  * flatpak uninstall --unused  (Remove runtimes obsoletas do flatpak)
  * sudo apt-get autoremove     (Remove dependências obsoletas sistema)
