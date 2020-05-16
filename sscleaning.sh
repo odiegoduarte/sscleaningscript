@@ -68,5 +68,6 @@ echo "Limpando o cache do Spotify."
 sudo rm -rf ~/.cache/spotify/Data/*
 sudo rm -rf ~/.cache/spotify/Storage/*
 
+## Limpeza finalizada
 zenity --info --text "Limpeza finalizada !"
 
