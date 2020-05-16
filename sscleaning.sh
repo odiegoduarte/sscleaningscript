@@ -69,3 +69,4 @@ sudo rm -rf ~/.cache/spotify/Data/*
 sudo rm -rf ~/.cache/spotify/Storage/*
 
 zenity --info --text "Limpeza finalizada !"
+

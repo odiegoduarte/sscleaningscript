@@ -16,3 +16,5 @@ SSCleaning é um simples shell script que foi criado para fazer a limpeza automa
 
 
 OBS: Esse shellscript é apenas um projeto pessoal de fim de tarde use por sua conta e risco.
+
+
