@@ -2,6 +2,7 @@
 
 SSCleaning é um simples shell script que foi criado para fazer a limpeza automatizada do sistema, utilizando comandos do APT.
 
+![screenshot](https://raw.githubusercontent.com/odiegoduarte/sscleaningscript/master/sscleaning.gif)
 
 ### Lista de comandos :
 
