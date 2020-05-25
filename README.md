@@ -20,10 +20,12 @@ SSCleaning é um simples shell script que foi criado para fazer a limpeza automa
 
 
 
+
 *<blockquote>OBS: Esse shellscript é apenas um projeto pessoal de fim de tarde use por sua conta e risco.</blockquote>*
 
 
-#### Referências
+
+### Referências
 
 [Operações básicas de gestão de pacotes](https://www.debian.org/doc/manuals/debian-reference/ch02.pt.html#_basic_package_management_operations)
 
