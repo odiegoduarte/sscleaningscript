@@ -31,3 +31,5 @@ SSCleaning é um simples shell script que foi criado para fazer a limpeza automa
 
 [Ubuntu Manpage apt command-line interface.](https://manpages.ubuntu.com/manpages/focal/man8/apt.8.html)
 
+[Gnome Zenity.](https://help.gnome.org/users/zenity/)
+
