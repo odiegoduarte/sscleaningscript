@@ -27,9 +27,6 @@ SSCleaning é um simples shell script que foi criado para fazer a limpeza automa
 
 ### Referências
 
-[Operações básicas de gestão de pacotes.](https://www.debian.org/doc/manuals/debian-reference/ch02.pt.html#_basic_package_management_operations)
-
-[Ubuntu Manpage apt command-line interface.](https://manpages.ubuntu.com/manpages/focal/man8/apt.8.html)
-
-[Gnome Zenity.](https://help.gnome.org/users/zenity/)
-
+- [Operações básicas de gestão de pacotes.](https://www.debian.org/doc/manuals/debian-reference/ch02.pt.html#_basic_package_management_operations)
+- [Ubuntu Manpage apt command-line interface.](https://manpages.ubuntu.com/manpages/focal/man8/apt.8.html)
+- [Gnome Zenity.](https://help.gnome.org/users/zenity/)
