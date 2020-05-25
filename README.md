@@ -19,6 +19,13 @@ SSCleaning é um simples shell script que foi criado para fazer a limpeza automa
 - [x] sudo rm -rf ~/.cache/spotify/Storage/*  (Cache do Spotify)
 
 
-OBS: Esse shellscript é apenas um projeto pessoal de fim de tarde use por sua conta e risco.
 
+*<blockquote>OBS: Esse shellscript é apenas um projeto pessoal de fim de tarde use por sua conta e risco.</blockquote>*
+
+
+#### Referências
+
+[Operações básicas de gestão de pacotes](https://www.debian.org/doc/manuals/debian-reference/ch02.pt.html#_basic_package_management_operations)
+
+[Ubuntu Manpage apt command-line interface](https://manpages.ubuntu.com/manpages/focal/man8/apt.8.html)
 
