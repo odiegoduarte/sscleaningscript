@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Criado por Diego Duarte
+#Criado por Diego Duarte 2020
 
 # SSCleaning é um simples shell script que foi criado para fazer a limpeza 
 # automatizada do sistema, utilizando comandos do APT.
@@ -37,8 +37,8 @@ if [ "$?" = -1 ] ; then
           --text="Update."
 fi
 
-
 echo "Seja bem-vindo(a)," $(whoami), "a limpeza automatizada do seu sistema já vai começar."
+
 
 zenity --question --text "Olá, no próximo passo irá te pedir a senha de usuario, Deseja continuar ?"
 
