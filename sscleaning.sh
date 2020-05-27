@@ -4,7 +4,7 @@
 
 # SSCleaning é um simples shell script que foi criado para fazer a limpeza 
 # automatizada do sistema, utilizando comandos do APT.
-# Esse shell scriot utiliza o zenity para gerar caixas de diálogo GTK.
+# Esse shell script utiliza o zenity para gerar caixas de diálogo GTK.
 
 echo -e "
 
