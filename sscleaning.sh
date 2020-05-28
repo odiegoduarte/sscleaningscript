@@ -55,15 +55,5 @@ echo "Limpando o cache do Spotify."
 sudo rm -rf ~/.cache/spotify/Data/*
 sudo rm -rf ~/.cache/spotify/Storage/*
 
-##Instalando deborphan
-echo "Instalando deborphan e removendo pacotes órfãos."
-sudo apt install deborphan
-deborphan -s
-sudo apt remove $(deborphan)
-deborphan -s
-sudo apt remove $(deborphan)
-deborphan -s
-sudo apt remove $(deborphan)
-
 ## Limpeza finalizada !
 echo "Limpeza finalizada !"
