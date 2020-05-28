@@ -17,9 +17,6 @@ SSCleaning é um simples shell script que foi criado para fazer a limpeza automa
 - [x] du -sh ~/.cache/thumbnails   (Cache de miniaturas.)
 - [x] sudo rm -rf ~/.cache/spotify/Data/*     (Cache do Spotify)
 - [x] sudo rm -rf ~/.cache/spotify/Storage/*  (Cache do Spotify)
-- [x] sudo apt install deborphan   (Adiciona ferramenta deborphan)
-- [x] sudo apt remove $(deborphan) (Remove os pacotes órfãos)
-
 
 
 
