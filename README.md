@@ -2,9 +2,13 @@
 
 SSCleaning é um simples shell script que foi criado para fazer a limpeza automatizada do sistema, utilizando comandos do APT.
 
+------------------------------
+
 <p align="center">
   <img width="460" height="300" src="https://raw.githubusercontent.com/odiegoduarte/sscleaningscript/master/sscleaning.gif">
 </p>
+
+------------------------------
 
 ### Lista de comandos:
 
@@ -19,10 +23,11 @@ SSCleaning é um simples shell script que foi criado para fazer a limpeza automa
 - [x] sudo rm -rf ~/.cache/spotify/Storage/*  (Cache do Spotify)
 
 
+------------------------------
 
 *<blockquote>OBS: Esse shellscript é apenas um projeto pessoal de fim de tarde use por sua conta e risco.</blockquote>*
 
-
+------------------------------
 
 ### Referências
 
