@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="922" height="202" src="https://raw.githubusercontent.com/odiegoduarte/sscleaningscript/master/images/SSCleaning.png">
+  <img width="922" height="257" src="https://raw.githubusercontent.com/odiegoduarte/sscleaningscript/master/images/SSCleaning.png">
 </p>
 
 <p align="center">
