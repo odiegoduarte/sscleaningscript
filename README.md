@@ -2,8 +2,6 @@
   <img width="922" height="202" src="https://raw.githubusercontent.com/odiegoduarte/sscleaningscript/master/images/SSCleaning.png">
 </p>
 
-------------------------------
-
 <p align="center">
   <img width="460" height="300" src="https://raw.githubusercontent.com/odiegoduarte/sscleaningscript/master/images/sscleaning.gif">
 </p>
