@@ -6,7 +6,6 @@
   <img width="460" height="300" src="https://raw.githubusercontent.com/odiegoduarte/sscleaningscript/master/images/sscleaning.gif">
 </p>
 
-------------------------------
 
 ### Lista de comandos:
 
@@ -20,15 +19,12 @@
 - [x] sudo rm -rf ~/.cache/spotify/Data/*     (Cache do Spotify)
 - [x] sudo rm -rf ~/.cache/spotify/Storage/*  (Cache do Spotify)
 
-
-------------------------------
-
-*<blockquote>OBS: Esse shellscript é apenas um projeto pessoal de fim de tarde use por sua conta e risco.</blockquote>*
-
-------------------------------
-
 ### Referências
 
 - [Operações básicas de gestão de pacotes.](https://www.debian.org/doc/manuals/debian-reference/ch02.pt.html#_basic_package_management_operations)
 - [Ubuntu Manpage apt command-line interface.](https://manpages.ubuntu.com/manpages/focal/man8/apt.8.html)
 - [Whiptail.](https://en.wikibooks.org/wiki/Bash_Shell_Scripting/)
+
+
+------------------------------
+>*OBS: Esse shellscript é apenas um projeto pessoal de fim de tarde use por sua conta e risco.*
