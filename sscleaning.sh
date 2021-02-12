@@ -1,21 +1,46 @@
 #!/bin/bash
 
-#Criado por Diego Duarte 2020
+#Criado por Diego Duarte 2020 - 2021
 
 # SSCleaning V2 é um simples shell script que foi criado para fazer a limpeza 
 # automatizada do sistema, utilizando comandos do APT.
 # Esse shell script utiliza o whiptail para gerar caixas de diálogo.
 
-echo -e "
+function print_centered {
+     [[ $# == 0 ]] && return 1
 
-███████╗███████╗ ██████╗██╗     ███████╗ █████╗ ███╗   ██╗██╗███╗   ██╗ ██████╗ 
-██╔════╝██╔════╝██╔════╝██║     ██╔════╝██╔══██╗████╗  ██║██║████╗  ██║██╔════╝ 
-███████╗███████╗██║     ██║     █████╗  ███████║██╔██╗ ██║██║██╔██╗ ██║██║  ███╗
-╚════██║╚════██║██║     ██║     ██╔══╝  ██╔══██║██║╚██╗██║██║██║╚██╗██║██║   ██║
-███████║███████║╚██████╗███████╗███████╗██║  ██║██║ ╚████║██║██║ ╚████║╚██████╔╝
-╚══════╝╚══════╝ ╚═════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═══╝ ╚═════╝                                                                                                                                                                                                                                                                                   
+     declare -i TERM_COLS="$(tput cols)"
+     declare -i str_len="${#1}"
+     [[ $str_len -ge $TERM_COLS ]] && {
+          echo "$1";
+          return 0;
+     }
 
-"
+     declare -i filler_len="$(( (TERM_COLS - str_len) / 2 ))"
+     [[ $# -ge 2 ]] && ch="${2:0:1}" || ch=" "
+     filler=""
+     for (( i = 0; i < filler_len; i++ )); do
+          filler="${filler}${ch}"
+     done
+
+     printf "%s%s%s" "$filler" "$1" "$filler"
+     [[ $(( (TERM_COLS - str_len) % 2 )) -ne 0 ]] && printf "%s" "${ch}"
+     printf "\n"
+
+     return 0
+}
+
+echo -e
+
+print_centered "███████╗███████╗ ██████╗██╗     ███████╗ █████╗ ███╗   ██╗██╗███╗   ██╗ ██████╗ "
+print_centered "██╔════╝██╔════╝██╔════╝██║     ██╔════╝██╔══██╗████╗  ██║██║████╗  ██║██╔════╝ "
+print_centered "███████╗███████╗██║     ██║     █████╗  ███████║██╔██╗ ██║██║██╔██╗ ██║██║  ███╗"
+print_centered "╚════██║╚════██║██║     ██║     ██╔══╝  ██╔══██║██║╚██╗██║██║██║╚██╗██║██║   ██║"
+print_centered "███████║███████║╚██████╗███████╗███████╗██║  ██║██║ ╚████║██║██║ ╚████║╚██████╔╝"
+print_centered "╚══════╝╚══════╝ ╚═════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═══╝ ╚═════╝ "
+
+print_centered "É um simples shellscript que faz uma limpeza automatizada do sistema."
+echo -e
 
 {
     for ((i = 0 ; i <= 100 ; i+=7)); do
@@ -33,27 +58,56 @@ else
 fi
 
 ## "Definir o numero máximo de revisões de um snap armazenadas pelo sistema após a proxima atualização."
+
 sudo snap set system refresh.retain=2
 
-echo "Removendo runtimes obsoletas do flatpak" 
+echo -e
+print_centered "-"  "-" 
+print_centered "> Removendo runtimes obsoletas do flatpak <"
+print_centered "-"  "-" 
+
 flatpak uninstall --unused -y
 
-echo "Removendo dependências obsoletas sistema."
+echo -e
+print_centered "-"  "-" 
+print_centered "> Removendo dependências obsoletas sistema <"
+print_centered "-"  "-" 
+
 sudo apt autoremove -y
 
-echo "Verificando cache do apt"
+echo -e
+print_centered "-"  "-" 
+print_centered "> Verificando cache do apt <"
+print_centered "-"  "-" 
+
 sudo du -sh /var/cache/apt
 
-echo "Removendo pacotes obsoletos."
+echo -e
+print_centered "-"  "-" 
+print_centered "> Removendo pacotes obsoletos <"
+print_centered "-"  "-" 
+
 sudo apt autoclean -y
 sudo apt clean -y
 
-echo "Limpando o cache de miniaturas."
+echo -e
+print_centered "-"  "-" 
+print_centered "> Limpando o cache de miniaturas <"
+print_centered "-"  "-" 
+
 du -sh ~/.cache/thumbnails
 
-echo "Limpando o cache do Spotify."
+echo -e
+print_centered "-"  "-" 
+print_centered "> Limpando o cache do Spotify <"
+print_centered "-"  "-" 
+
 sudo rm -rf ~/.cache/spotify/Data/*
 sudo rm -rf ~/.cache/spotify/Storage/*
 
 ## Limpeza finalizada !
-echo "Limpeza finalizada !"
+echo -e
+print_centered "-"  "-" 
+print_centered "> Limpeza finalizada ! <"
+print_centered "-"  "-" 
+echo -e
