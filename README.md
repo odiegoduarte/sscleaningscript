@@ -1,9 +1,9 @@
 <p align="center">
-  <img width="922" height="257" src="https://raw.githubusercontent.com/odiegoduarte/sscleaningscript/master/images/SSCleaning.png">
+  <img width="922" height="257" src="/images/SSCleaning.png">
 </p>
 
 <p align="center">
-  <img width="460" height="300" src="https://raw.githubusercontent.com/odiegoduarte/sscleaningscript/master/images/sscleaning.gif">
+  <img width="813" height="526" src="/images/sscleaningv4.png">
 </p>
 
 
@@ -28,7 +28,8 @@
 - [Ubuntu Beginners/BashScripting](https://help.ubuntu.com/community/Beginners/BashScripting)
 - [Introdução à programação Shell](http://www.faqs.org/docs/air/tsshell.html)
 - [Programando em shell script](http://www.devin.com.br/shell_script/)
-
+- [Shell Scripting Tutorial](https://www.shellscript.sh/)
+- [Bash Reference Manual](https://devdocs.io/bash/)
 
 ------------------------------
 >*OBS: Esse shellscript é apenas um projeto pessoal de fim de tarde use por sua conta e risco.*
