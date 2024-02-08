@@ -1,3 +1,5 @@
 /dev
-/betabuild
-/legacy
+#/legacy
+/logs
+/cache
+/.vscode
